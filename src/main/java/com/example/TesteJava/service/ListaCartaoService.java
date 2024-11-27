@@ -1,6 +1,9 @@
 package com.example.TesteJava.service;
 
+
+import java.util.List;
+
 public interface ListaCartaoService {
 
-    String ListaCartao (String cpf);
+    List<Object> ListaCartao (String cpf);
 }

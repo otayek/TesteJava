@@ -40,6 +40,21 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>au.com.dius</groupId>
+            <artifactId>pact-jvm-provider-junit5-spring</artifactId>
+            <version>4.0.10</version>
+        </dependency>
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>TesteJava</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>net.eusashead.hateoas</groupId>
+			<artifactId>spring-halbuilder-page</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<build>
